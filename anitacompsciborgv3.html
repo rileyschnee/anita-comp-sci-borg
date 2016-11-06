@@ -1,0 +1,146 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+	<style>
+	header {
+		text-align: center;	
+		background: #FFB6C1;
+		background-size: cover;
+		font-family: futura;
+
+	}
+	h1 {
+		font-size: 70px;
+	}
+	img {
+		margin: 40px 0 0 0;
+		border: 7px solid black;
+		border-radius: 20px;
+		background-color: black;
+	}
+	a {
+		color: #ffb1b1;
+		text-decoration: none;
+		background-color: black;
+		padding: 5px;
+		border-radius: 5px;
+	}
+
+	.yolo{
+		color: #b7efff;
+		text-decoration: none;
+		margin-left: 30px;
+		margin-right: 30px;
+		text-align: center;	
+		background-color: white; 
+		border-radius: 10px;
+		border-color: #b7efff;
+		border-style: solid;
+		border-width: 4px;
+	}
+	/* top left bottom right */
+	h2 {
+		text-align: center; 
+	}
+	ul {
+		padding: 10px;
+		background: black;
+	} /* comment */
+	li {
+		display: inline;
+		padding: 0px 10px 0px 10px;
+	}
+	.title {
+		margin: 0;
+	}
+	p {
+		text-align: center;
+		max-width: 600px;
+		padding: 10px 0 10px 0;
+		margin: 0 auto;
+	}
+	
+	body{
+		font-family: futura;
+	}
+	button{
+		background-color: white;
+		color: #d9d1ff;
+		border-radius: 10px;
+		border-color: #d9d1ff;
+		border-style: solid;
+		border-width: 4px;
+		font-size: 20px;
+		font-family: futura;
+		margin-left: 30px;
+		margin-right: 30px;
+		text-align: center;	
+	}
+	.swag{
+		text-align: center;
+	}
+	@media(max-width: 500px){
+		.title{
+			font-size: 40px;
+		}
+		li{
+			display: block;
+			padding: 7px 0 7px 0;
+		}
+		a{
+			padding: 5px 40% 5px 40%;
+		}
+
+	}
+	</style>
+</head>
+<body>
+    <header>
+        <h1 class="title">Anita comp sci-Borg</h1>
+          <ul>
+            <li>
+                <a href="https://www.britannica.com/biography/Frances-E-Allen">Frances Allen</a>
+            </li>
+            <li>
+            	<a href="http://anitaborg.org/about-us/about-anita-borg/">Anita Borg</a>
+            </li>
+            <li>
+           		<a href="http://www.thehistorymakers.com/biography/katherine-g-johnson-42">Katherine Johnson</a>
+            </li>
+            <li>
+            	<a href="http://www.biography.com/people/ada-lovelace-20825323">Ada Lovelace</a>
+            </li>
+            <li>
+            	<a href="http://www.vintagecomputing.com/index.php/archives/800">Carol Shaw</a>
+            </li>
+
+        </ul>
+    </header>
+    <p>Go through intense obstacles, saving the innovative women of Computer Science. Go through mazes and save the day!</p>
+    <h2> <a class = "yolo" href="https://drive.google.com/open?id=0B1cQybZFPJfPMkRUck9kSlZUQkk">click here to play!</a> 
+	</h2>
+    <p>This game was made by: Naira Ali, Dana Altarace, Sherlyn Chuang, Cathy Dunn, Megan Goyer, Megan Magsalin,  Saloni Mittal and Riley Schnee.</p>
+<article class = "swag">
+	<button>click here for a fun fact!</button>
+</article>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script> 
+	<script type="text/javascript">
+	$("button").on("click", function() {
+		var  random = (Math.random()*4)+1;
+		var intvalue = parseInt(random);
+		if(intvalue == 1)
+				alert("20% of all tech startups across the world are founded by women.");
+		else if(intvalue == 2)
+				alert("In the mid-1980s, 37% of computer science majors were women. In 2012, it was only 18%.");
+		else if(intvalue == 3)
+				alert("74% of women in technology report 'loving their work,' yet these women are leaving their careers at a staggering rate.");
+		else if(intvalue == 4)
+				alert("Teams with equal numbers of men and women were more likely to experiment, be creative, share knowledge, and fulfill tasks than teams of any other composition.");
+	    else
+	    		alert("You can thank actress Hedy Lamarr for creating the precursor communication system to Wi-Fi and Bluetooth!");
+				
+	})
+	</script>
+
+</html>
